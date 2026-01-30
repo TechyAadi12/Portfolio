@@ -29,8 +29,8 @@ const Navbar = () => {
     { name: 'About', href: '#about' },
     { name: 'Projects', href: '#projects' },
     { name: 'Skills', href: '#skills' },
-    { name: 'Experience', href: '#experience' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Education', href: '#experience' },
+    // { name: 'Contact', href: '#contact' },
   ];
 
   return (
@@ -62,14 +62,14 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            <motion.button
+            {/* <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => setIsDark(!isDark)}
               className="p-2 rounded-full hover:bg-tertiary transition-colors"
             >
               {isDark ? <FaSun className="text-yellow-400" /> : <FaMoon className="text-gray-400" />}
-            </motion.button>
+            </motion.button> */}
           </div>
 
           {/* Mobile Navigation Button */}

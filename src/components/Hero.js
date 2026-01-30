@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin,  FaArrowDown } from "react-icons/fa";
-import profileImg from "./WhatsApp_Image_2025-07-13_at_09.24.05_877c0568-removebg-preview.png";
+import HeroImg from "./hero.png";
 const Hero = () => {
   return (
     <section
@@ -122,9 +122,9 @@ const Hero = () => {
               >
                 {/* Profile image inside circular container */}
                 <img
-                  src={profileImg}
+                  src={HeroImg}
                   alt="Your Name"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
                 />
               </motion.div>
             </div>

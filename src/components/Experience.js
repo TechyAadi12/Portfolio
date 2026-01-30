@@ -4,18 +4,18 @@ import { FaBriefcase, FaGraduationCap } from 'react-icons/fa';
 
 const Experience = () => {
   const experiences = [
-    {
-      type: 'work',
-      title: 'Frontend Developer',
-      company: 'Code Alpha',
-      period: '15th Oct 2024 - 15th Nov 2024',
-      description: 'Built responsive web applications and collaborated with designers to implement UI/UX designs.',
-      achievements: [
-        'Created 10+ responsive websites',
-        'Implemented modern UI components',
-        'Worked with various clients and stakeholders'
-      ]
-    },
+    // {
+    //   type: 'work',
+    //   title: 'Frontend Developer',
+    //   company: 'Code Alpha',
+    //   period: '15th Oct 2024 - 15th Nov 2024',
+    //   description: 'Built responsive web applications and collaborated with designers to implement UI/UX designs.',
+    //   achievements: [
+    //     'Created 10+ responsive websites',
+    //     'Implemented modern UI components',
+    //     'Worked with various clients and stakeholders'
+    //   ]
+    // },
     {
       type: 'education',
       title: 'Bachelor of Technology',
@@ -23,8 +23,9 @@ const Experience = () => {
       period: '2022 - 2026',
       description: 'Graduated in Information Technology with Skills in domain of web development and software engineering.',
       achievements: [
-        'GPA: 7.1/10',
-        'Completed multiple web development projects'
+        'GPA: 7.01/10',
+        'Completed multiple web development projects',
+        'Learned various programming languages and frameworks Fundamentals'
       ]
     }
   ];
@@ -39,8 +40,8 @@ const Experience = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="heading">Experience & Education</h2>
-          <p className="subheading">My professional journey</p>
+          <h2 className="heading">Education</h2>
+          {/* <p className="subheading">My professional journey</p> */}
         </motion.div>
 
         <div className="space-y-12">

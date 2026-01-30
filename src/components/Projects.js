@@ -5,25 +5,25 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 const Projects = () => {
   const projects = [
    
-    {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      image: '/project2.jpg',
-      technologies: ['HTML','CSS','Java Script'],
-      github: 'https://github.com/TechyAadi12/Code-Alpha',
-      demo: 'https://soft-fox-4d1da3.netlify.app/',
-      featured: true
-    },
+    // {
+    //   title: 'Task Management App',
+    //   description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+    //   image: '/project2.jpg',
+    //   technologies: ['HTML','CSS','Java Script'],
+    //   github: 'https://github.com/TechyAadi12/Code-Alpha',
+    //   demo: 'https://soft-fox-4d1da3.netlify.app/',
+    //   featured: true
+    // },
     
-    {
-      title: 'Calculator',
-      description: 'A simple and responsive calculator web app built using HTML, CSS, and JavaScript. It performs basic arithmetic operations with a clean UI and smooth user interactions.',
-      image: '/project3.jpg',
-      technologies: ['HTML','CSS','Java Script'],
-      github: 'https://github.com/TechyAadi12/Code-Alpha',
-      demo: 'https://polite-bubblegum-8aa224.netlify.app/',
-      featured: true
-    },
+    // {
+    //   title: 'Calculator',
+    //   description: 'A simple and responsive calculator web app built using HTML, CSS, and JavaScript. It performs basic arithmetic operations with a clean UI and smooth user interactions.',
+    //   image: '/project3.jpg',
+    //   technologies: ['HTML','CSS','Java Script'],
+    //   github: 'https://github.com/TechyAadi12/Code-Alpha',
+    //   demo: 'https://polite-bubblegum-8aa224.netlify.app/',
+    //   featured: true
+    // },
 
     {
       title: 'Gym Fitness Website',
@@ -39,7 +39,7 @@ const Projects = () => {
       title: 'Grocery Shop Website',
       description: 'A user-friendly grocery shop website with a clean UI, product listings, cart functionality, and responsive design, allowing customers to browse and purchase essentials seamlessly online.',
       image: '/project3.jpg',
-      technologies: ['HTML','CSS','Java Script','React Js'],
+      technologies: ['HTML','Tailwind CSS','Java Script','React Js'],
       github: 'https://github.com/TechyAadi12/Code-Alpha',
       demo: 'https://jocular-blancmange-0950b4.netlify.app/',
       featured: true
@@ -54,6 +54,28 @@ const Projects = () => {
       demo: 'https://poetic-macaron-c71c64.netlify.app/',
       featured: true
     },
+
+    {
+      title: ' AI Cooking Companion',
+      description: 'A responsive AI Cooking Companion web app featuring an AI recipe generator, cooking mode,grocery helper. Designed withclean UI/UX, smooth navigation, and reusable components to deliver an engaging cooking experience across devices.',
+      image: '/project3.jpg',
+      technologies: ['HTML','Tailwind CSS','React Js','API Integration','Zustand'],
+      github: 'https://github.com/TechyAadi12/Code-Alpha',
+      demo: 'https://ubiquitous-nougat-c5be6e.netlify.app/',
+      featured: true
+    },
+
+    {
+      title: 'Fake News Detector',
+      description: 'A responsive Fake News Detection web app using HTML, Tailwind CSS, and React.js with a Python backend powered by DistilBERT, delivering fast, accurate news authenticity analysis through a clean, intuitive interface.',
+      image: '/project3.jpg',
+      technologies: ['HTML','Tailwind CSS','React Js','Python Backend(Using DistilBERT Model)'],
+      github: 'https://github.com/TechyAadi12/Code-Alpha',
+      demo: 'https://euphonious-bombolone-7a9aca.netlify.app/',
+      featured: true
+    },
+
+
    
     
   ];
