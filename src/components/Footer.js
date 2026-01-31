@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import logo from './ChatGPT Image Nov 25, 2025, 02_49_44 AM.png';
 
 
@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer class="text-gray-400 bg-gray-900 body-font">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-    <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+    <a href="/" class="flex title-font font-medium items-center md:justify-start justify-center text-white">
       <img src={logo} alt="Aadi logo" class="w-12 h-12 mr-3 rounded-full" />
       <span class="ml-3 text-xl">Aadi's Portfolio</span>
     </a>
