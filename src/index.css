@@ -83,6 +83,14 @@
   .gradient-text {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-secondary to-blue-400;
   }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
 
 @keyframes float {
