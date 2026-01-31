@@ -54,12 +54,12 @@ const Projects = () => {
       featured: true
     },
     {
-      title: 'Fake News Detector',
-      description: 'A responsive Fake News Detection web app using HTML, Tailwind CSS, and React.js with a Python backend powered by DistilBERT, delivering fast, accurate news authenticity analysis through a clean, intuitive interface.',
+      title: 'To-do App',
+      description: 'A full-stack To-Do application built with React, Tailwind CSS, Node.js, Express, and MongoDB, featuring a responsive UI and complete CRUD functionality.',
       image: '/project3.jpg',
-      technologies: ['HTML', 'Tailwind CSS', 'React Js', 'Python Backend(Using DistilBERT Model)'],
+      technologies: ['HTML', 'Tailwind CSS', 'React Js'],
       github: 'https://github.com/TechyAadi12/Code-Alpha',
-      demo: 'https://euphonious-bombolone-7a9aca.netlify.app/',
+      demo: 'https://to-do-frontnd.netlify.app/',
       featured: true
     },
   ];
