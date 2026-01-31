@@ -17,6 +17,17 @@ const Projects = () => {
   };
 
   const projects = [
+
+    {
+      title: 'Freelancer SaaS Dashboard',
+      description: 'A fully Responsive and dynamic SaaS dashboard for freelancers to manage clients, projects, and payments with real-time insights, revenue tracking, and project status visualization through interactive charts.',
+      image: '/project3.jpg',
+      technologies: ['HTML', 'Tailwind CSS', 'Java Script', 'React Js'],
+      github: 'https://github.com/TechyAadi12/Code-Alpha',
+      demo: 'https://extraordinary-taiyaki-936395.netlify.app/',
+      featured: true
+    },
+
     {
       title: 'Gym Fitness Website',
       description: 'A dynamic and engaging fitness website featuring a modern UI, workout plans, trainer profiles, membership options, and responsive design to attract users and boost gym conversions.',
