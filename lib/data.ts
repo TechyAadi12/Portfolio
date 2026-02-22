@@ -133,4 +133,23 @@ export const projects: Project[] = [
         live: "https://to-do-frontnd.netlify.app/",
         image: "/images/todo.webp",
     },
+    {
+        id: 5,
+        name: "Undo School",
+        shortDescription: "An educational platform designed to enhance learning outcomes through interactive content and personalized learning paths.",
+        problem: "Traditional educational platforms often lack engagement and personalization, leading to lower retention rates and student motivation.",
+        solution: "A dynamic learning platform combining interactive modules with adaptive educational content tailored to individual student needs.",
+        stack: ["React", "Tailwind CSS", "Node.js"],
+        features: [
+            "Interactive Learning Modules: Engaging educational content designed for optimal comprehension.",
+            "Personalized Learning Paths: Adaptive curriculum based on student progress and learning style.",
+            "Progress Tracking: Real-time monitoring of student achievements and milestones.",
+            "Responsive Design: Seamless learning experience across all devices.",
+        ],
+        technicalHighlights: "Built with React for a modern, interactive user interface. Tailwind CSS for responsive, accessible design. Backend integration with Node.js for scalable data management.",
+        businessImpact: "Enhances student engagement and learning outcomes through personalized educational experiences.",
+        github: "https://github.com/TechyAadi12",
+        live: "https://undo-school-frontend.netlify.app/",
+        image: "/images/undo-school.webp",
+    },
 ];
