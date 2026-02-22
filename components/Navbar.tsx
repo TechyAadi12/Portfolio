@@ -3,14 +3,12 @@
 import { useState, useEffect } from "react";
 import { navLinks } from "@/lib/data";
 import { cn } from "@/lib/utils";
-import { Menu, X, Moon, Sun, Monitor } from "lucide-react";
-import { useTheme } from "./theme-provider";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    const { theme, setTheme } = useTheme();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -45,45 +43,10 @@ export default function Navbar() {
                             {link.name}
                         </a>
                     ))}
-                    <div className="flex items-center bg-muted/50 rounded-full p-1 border">
-                        <button
-                            onClick={() => setTheme("light")}
-                            className={cn(
-                                "p-2 rounded-full transition-all",
-                                theme === "light" ? "bg-background shadow-sm text-primary" : "text-muted-foreground"
-                            )}
-                        >
-                            <Sun size={16} />
-                        </button>
-                        <button
-                            onClick={() => setTheme("dark")}
-                            className={cn(
-                                "p-2 rounded-full transition-all",
-                                theme === "dark" ? "bg-background shadow-sm text-primary" : "text-muted-foreground"
-                            )}
-                        >
-                            <Moon size={16} />
-                        </button>
-                        <button
-                            onClick={() => setTheme("system")}
-                            className={cn(
-                                "p-2 rounded-full transition-all",
-                                theme === "system" ? "bg-background shadow-sm text-primary" : "text-muted-foreground"
-                            )}
-                        >
-                            <Monitor size={16} />
-                        </button>
-                    </div>
                 </div>
 
                 {/* Mobile Toggle */}
                 <div className="md:hidden flex items-center space-x-4">
-                    <button
-                        onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-                        className="p-2 rounded-full bg-muted/50"
-                    >
-                        {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
-                    </button>
                     <button
                         onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                         className="p-2 hover:bg-muted rounded-lg transition-colors"
