@@ -159,16 +159,16 @@ export default function Projects() {
                                         </p>
 
                                         <div className="mt-auto pt-6 border-t border-border/30 flex items-center justify-between">
-                                            <div className="flex -space-x-2">
+                                            {/* <div className="flex -space-x-2">
                                                 {[1, 2, 3].map(i => (
                                                     <div key={i} className="w-6 h-6 rounded-full border-2 border-background bg-muted text-[8px] flex items-center justify-center font-bold">
                                                         {i}
                                                     </div>
                                                 ))}
-                                            </div>
-                                            <a href={project.live} className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-primary hover:gap-3 transition-all">
+                                            </div> */}
+                                            {/* <a href={project.live} className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-primary hover:gap-3 transition-all">
                                                 Details <ArrowUpRight size={14} />
-                                            </a>
+                                            </a> */}
                                         </div>
                                     </div>
                                 </div>
