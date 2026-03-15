@@ -81,7 +81,7 @@ export default function Hero() {
                             {/* Image Container */}
                             <div className="absolute inset-4 rounded-full overflow-hidden border-4 border-[#2dd4bf]/20 shadow-2xl shadow-[#2dd4bf]/10">
                                 <img
-                                    src="/hero.png"
+                                    src="https://img.freepik.com/free-vector/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_138676-2387.jpg?semt=ais_rp_50_assets&w=740&q=80"
                                     alt="Roshan Pandey"
                                     className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-500"
                                     onError={(e) => {
