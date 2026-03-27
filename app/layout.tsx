@@ -6,6 +6,7 @@ import { ThemeProvider } from "../components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
     title: "Aadi Pandey Frontend Developer Portfolio",
     description: "Senior-level developer focused on building high-performance, accessible, and beautiful web applications. Specializing in React, Next.js, and modern web architecture.",
     keywords: ["Web Developer", "Frontend Engineer", "Full Stack Developer", "Portfolio", "Next.js", "React"],

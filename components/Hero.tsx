@@ -5,7 +5,7 @@ import { ChevronDown } from "lucide-react";
 
 export default function Hero() {
     return (
-        <section className="relative min-h-screen flex items-center overflow-hidden pt-20 bg-[#0f1d24]">
+        <section className="relative min-h-screen flex items-center overflow-hidden pt-20 bg-background">
             {/* Background Radial Glow */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full -z-10 bg-[radial-gradient(circle_at_70%_50%,rgba(45,212,191,0.08),transparent_50%)]" />
 

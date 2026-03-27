@@ -92,7 +92,7 @@ export const projects: Project[] = [
         technicalHighlights: "Implemented Zustand for ultra-lightweight, high-performance state synchronization. Custom-built custom hooks for optimized shopping cart logic and local storage persistence. Component-based architecture focused on reusability and fast render cycles.",
         businessImpact: "Streamlines the buying process, reducing the time from product discovery to checkout and decreasing abandonment through optimistic UI updates.",
         github: "https://github.com/TechyAadi12",
-        live: "https://imaginative-malasada-3f56ed.netlify.app/",
+        live: "https://grocery-ecommerce-frontend.netlify.app/",
         image: "/images/aether.webp",
     },
     {

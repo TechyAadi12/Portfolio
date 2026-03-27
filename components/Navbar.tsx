@@ -23,8 +23,8 @@ export default function Navbar() {
             className={cn(
                 "fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 py-4",
                 isScrolled
-                    ? "glass-dark dark:glass bg-white/70 dark:bg-black/50 py-3 shadow-lg"
-                    : "bg-transparent"
+                    ? "bg-background border-b border-border/80 py-3 shadow-lg"
+                    : "bg-background"
             )}
         >
             <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -63,7 +63,7 @@ export default function Navbar() {
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -20 }}
-                        className="absolute top-full left-0 right-0 bg-background border-b shadow-xl px-6 py-8 md:hidden flex flex-col space-y-4"
+                        className="absolute top-full left-0 right-0 bg-background border-b border-border shadow-xl px-6 py-8 md:hidden flex flex-col space-y-4"
                     >
                         {navLinks.map((link) => (
                             <a

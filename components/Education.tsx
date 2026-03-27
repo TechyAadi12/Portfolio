@@ -37,7 +37,7 @@ export default function Education() {
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="relative group lg:p-10 p-6 bg-muted/10 backdrop-blur-sm border border-border/40 rounded-[2.5rem] overflow-hidden transition-all duration-500 hover:border-primary/40 hover:shadow-2xl hover:shadow-primary/5"
+                        className="relative group lg:p-10 p-6 bg-background backdrop-blur-sm border border-border/40 rounded-[2.5rem] overflow-hidden transition-all duration-500 hover:border-primary/40 hover:shadow-2xl hover:shadow-primary/5"
                     >
                         {/* Timeline Line (Simplified for single entry) */}
                         <div className="absolute left-8 lg:left-12 top-0 bottom-0 w-px bg-gradient-to-b from-primary/40 via-border to-transparent hidden sm:block" />
@@ -71,7 +71,7 @@ export default function Education() {
                                         <Calendar size={16} className="text-primary" />
                                         <span className="text-sm font-bold">2022 — 2026</span>
                                     </div>
-                                    <div className="text-xs font-bold text-muted-foreground uppercase tracking-widest bg-muted/50 px-3 py-1 rounded-lg">
+                                    <div className="text-xs font-bold text-muted-foreground uppercase tracking-widest bg-background px-3 py-1 rounded-lg border border-border/50">
                                         Current GPA: <span className="text-primary">7.01</span>
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@ export default function Education() {
                                     </div>
                                 </div>
 
-                                <div className="bg-muted/30 p-6 rounded-3xl border border-border/50">
+                                <div className="bg-background p-6 rounded-3xl border border-border/50">
                                     <h5 className="text-xs font-black uppercase tracking-widest mb-4 flex items-center gap-2">
                                         <span className="w-1.5 h-1.5 rounded-full bg-primary" /> Key Contributions
                                     </h5>

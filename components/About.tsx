@@ -65,7 +65,7 @@ export default function About() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                                className="p-8 rounded-2xl border bg-muted/20 backdrop-blur-sm hover:border-primary/50 transition-colors"
+                                className="p-8 rounded-2xl border bg-background backdrop-blur-sm hover:border-primary/50 transition-colors"
                             >
                                 <div className="mb-4 p-3 bg-background rounded-xl inline-block shadow-sm">
                                     {item.icon}
