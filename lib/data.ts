@@ -39,26 +39,47 @@ export const skills: SkillCategory[] = [
     {
         category: "Frontend",
         items: [
-            { name: "React / Next.js", level: 90 },
-            { name: "Tailwind CSS", level: 95 },
-            { name: "HTML5 / CSS3", level: 95 },
-            { name: "JavaScript (ES6+)", level: 90 },
+            { name: "React", level: 80 },
+            { name: "Tailwind CSS", level: 80 },
+            { name: "HTML / CSS", level: 90 },
+            { name: "JavaScript (ES6+)", level: 80 },
         ],
     },
     {
         category: "Tools & Others",
         items: [
-            { name: "Git / GitHub", level: 90 },
-            { name: "Node.js / Express", level: 80 },
-            { name: "MongoDB / PostgreSQL", level: 75 },
-            { name: "REST APIs", level: 85 },
+            { name: "Git / GitHub", level: 80 },
+            { name: "REST APIs", level: 60 },
+            { name: "Cursor & Antigravity", level: 80 },
+            { name: "Co-pilot & Codex", level: 80 },
+
         ],
     },
 ];
 
 export const projects: Project[] = [
-    {
+
+     {
         id: 1,
+        name: "EduPathway",
+        shortDescription: "An educational platform designed to enhance learning outcomes through interactive content and personalized learning paths.",
+        problem: "Traditional educational platforms often lack engagement and personalization, leading to lower retention rates and student motivation.",
+        solution: "A dynamic learning platform combining interactive modules with adaptive educational content tailored to individual student needs.",
+        stack: ["React", "Tailwind CSS", "Zustand"],
+        features: [
+            "Interactive Learning Modules: Engaging educational content designed for optimal comprehension.",
+            "Personalized Learning Paths: Adaptive curriculum based on student progress and learning style.",
+            "Progress Tracking: Real-time monitoring of student achievements and milestones.",
+            "Responsive Design: Seamless learning experience across all devices.",
+        ],
+        technicalHighlights: "Built with React for a modern, interactive user interface. Tailwind CSS for responsive, accessible design. Backend integration with Node.js for scalable data management.",
+        businessImpact: "Enhances student engagement and learning outcomes through personalized educational experiences.",
+        github: "https://github.com/TechyAadi12",
+        live: "https://edupathway-frontend.netlify.app/",
+        image: "/images/undo-school.webp",
+    },
+    {
+        id: 2,
         name: "Freelance SaaS",
         shortDescription: "A centralized mission control for independent professionals to scale their business with real-time financial insights and automated client management.",
         problem: "Independent professionals often struggle with 'admin fatigue,' losing billable hours to fragmented tools for tracking clients, project milestones, and payment statuses across multiple platforms.",
@@ -77,8 +98,8 @@ export const projects: Project[] = [
         image: "/images/nexus.webp",
     },
     {
-        id: 2,
-        name: "Grocery E-Commerce Website",
+        id: 3,
+        name: "Grocery E-Commerce",
         shortDescription: "A high-velocity grocery commerce platform emphasizing friction-free shopping and lightweight state management.",
         problem: "Traditional e-commerce platforms often suffer from slow 'add-to-cart' latency and cumbersome checkout flows, leading to high cart abandonment rates in the essential goods sector.",
         solution: "A lightweight, state-driven commerce engine focused on instantaneous feedback and a frictionless path-to-purchase.",
@@ -95,25 +116,7 @@ export const projects: Project[] = [
         live: "https://grocery-ecommerce-frontend.netlify.app/",
         image: "/images/aether.webp",
     },
-    {
-        id: 3,
-        name: "Zym Fitness Website",
-        shortDescription: "A high-performance fitness landing experience optimized for user conversion through fluid motion and strategic information hierarchy.",
-        problem: "Many fitness platforms fail to convert visitors due to static, unengaging layouts that don't effectively communicate the energy and professionalism of the training programs.",
-        solution: "A kinetic, performance-driven web experience that uses fluid motion and clear information hierarchy to drive memberships and engagement.",
-        stack: ["React", "Java Script", "Tailwind CSS"],
-        features: [
-            "Immersive Program Discovery: Interactive workout modules with optimized visual feedback.",
-            "Trainer Synergy Profiles: Dynamic layouts showcasing expertise and social proof.",
-            "Kinetic UI Design: Sophisticated scroll-triggered animations that boost time-on-site.",
-            "Mobile-First Performance: Lightning-fast load times even with heavy visual assets."
-        ],
-        technicalHighlights: "Advanced animation choreography using Framer Motion for a 60fps 'liquid' feel. Highly scalable component design for rapid deployment of new fitness modules. Strategic use of layout shifts and lazy loading to ensure optimal Lighthouse scores.",
-        businessImpact: "Enhances brand authority and trust, significantly increasing user retention and click-through rates for membership inquiries.",
-        github: "https://github.com/TechyAadi12",
-        live: "https://heartfelt-figolla-9ae1c5.netlify.app/",
-        image: "/images/gym.webp",
-    },
+        
     {
         id: 4,
         name: "To-Do Application",
@@ -132,24 +135,5 @@ export const projects: Project[] = [
         github: "https://github.com/TechyAadi12",
         live: "https://to-do-frontnd.netlify.app/",
         image: "/images/todo.webp",
-    },
-    {
-        id: 5,
-        name: "Undo School",
-        shortDescription: "An educational platform designed to enhance learning outcomes through interactive content and personalized learning paths.",
-        problem: "Traditional educational platforms often lack engagement and personalization, leading to lower retention rates and student motivation.",
-        solution: "A dynamic learning platform combining interactive modules with adaptive educational content tailored to individual student needs.",
-        stack: ["React", "Tailwind CSS", "Node.js"],
-        features: [
-            "Interactive Learning Modules: Engaging educational content designed for optimal comprehension.",
-            "Personalized Learning Paths: Adaptive curriculum based on student progress and learning style.",
-            "Progress Tracking: Real-time monitoring of student achievements and milestones.",
-            "Responsive Design: Seamless learning experience across all devices.",
-        ],
-        technicalHighlights: "Built with React for a modern, interactive user interface. Tailwind CSS for responsive, accessible design. Backend integration with Node.js for scalable data management.",
-        businessImpact: "Enhances student engagement and learning outcomes through personalized educational experiences.",
-        github: "https://github.com/TechyAadi12",
-        live: "https://undo-school-frontend.netlify.app/",
-        image: "/images/undo-school.webp",
     },
 ];
