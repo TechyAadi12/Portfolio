@@ -39,8 +39,8 @@ export const skills: SkillCategory[] = [
     {
         category: "Frontend",
         items: [
-            { name: "React", level: 80 },
-            { name: "Tailwind CSS", level: 80 },
+            { name: "React", level: 70 },
+            { name: "Tailwind CSS & Bootstrap", level: 80 },
             { name: "HTML / CSS", level: 90 },
             { name: "JavaScript (ES6+)", level: 80 },
         ],
@@ -50,8 +50,8 @@ export const skills: SkillCategory[] = [
         items: [
             { name: "Git / GitHub", level: 80 },
             { name: "REST APIs", level: 60 },
-            { name: "Cursor & Antigravity", level: 80 },
-            { name: "Co-pilot & Codex", level: 80 },
+            { name: "Cursor & Antigravity", level: 90 },
+            { name: "Co-pilot & Codex", level: 90 },
 
         ],
     },
