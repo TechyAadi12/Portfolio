@@ -39,10 +39,10 @@ export const skills: SkillCategory[] = [
     {
         category: "Frontend",
         items: [
-            { name: "React", level: 70 },
-            { name: "Tailwind CSS & Bootstrap", level: 80 },
             { name: "HTML / CSS", level: 90 },
-            { name: "JavaScript (ES6+)", level: 80 },
+            { name: "Tailwind CSS & Bootstrap", level: 80 },
+            { name: "JavaScript (ES6+)", level: 70 },
+            { name: "React & Redux/Zustand", level: 60 },
         ],
     },
     {
