@@ -75,7 +75,7 @@ export const projects: Project[] = [
         technicalHighlights: "Built with React for a modern, interactive user interface. Tailwind CSS for responsive, accessible design. Backend integration with Node.js for scalable data management.",
         businessImpact: "Enhances student engagement and learning outcomes through personalized educational experiences.",
         github: "https://github.com/TechyAadi12",
-        live: "https://edupathway-frontend.netlify.app/",
+        live: "https://edupathway-edtch.netlify.app/",
         image: "/images/undo-school.webp",
     },
     {
