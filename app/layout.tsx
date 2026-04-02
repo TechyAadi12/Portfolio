@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     description: "Senior-level developer focused on building high-performance, accessible, and beautiful web applications. Specializing in React, Next.js, and modern web architecture.",
     keywords: ["Web Developer", "Frontend Engineer", "Full Stack Developer", "Portfolio", "Next.js", "React"],
     openGraph: {
-        title: "Alex Rivera | Portfolio",
+        title: "Aadi Pandey | Portfolio",
         description: "Building the next generation of web experiences.",
-        url: "https://alexrivera.dev",
-        siteName: "Alex Rivera Portfolio",
+        url: "https://aadipandey.dev",
+        siteName: "Aadi Pandey Portfolio",
         images: [
             {
                 url: "/og-image.png",
