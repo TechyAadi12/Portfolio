@@ -116,9 +116,37 @@ export const projects: Project[] = [
         live: "https://grocery-ecommerce-frontend.netlify.app/",
         image: "/images/aether.webp",
     },
-        
+
     {
-        id: 4,
+    id: 4,
+    name: "FinVault - Financial Dashboard",
+    shortDescription: "A high-performance financial analytics dashboard enabling real-time transaction tracking, intelligent insights, and role-based control through a visually rich, glassmorphic interface.",
+
+    problem: "Users struggle with fragmented financial visibility and lack actionable insights due to static dashboards and tools that do not adapt to different user roles or provide real-time analytics.",
+
+    solution: "A dynamic financial dashboard ecosystem built with modern frontend architecture, offering real-time transaction management, role-based access control, and intelligent data visualization for enhanced financial decision-making.",
+
+    stack: ["React", "Vite", "Tailwind CSS", "Zustand", "Recharts"],
+
+    features: [
+        "Role-Based Access Control (RBAC): Admins can manage transactions while viewers access read-only analytics.",
+        "Interactive Data Visualizations: Area and bar charts for balance trends and spending insights.",
+        "Smart Financial Insights: Automated detection of patterns like highest spending category.",
+        "Advanced Filtering & Sorting: Search, filter by type/category, and sort transactions dynamically.",
+        "Premium Responsive UI: Glassmorphic dark-mode design optimized for both desktop and mobile experiences."
+    ],
+
+    technicalHighlights: "Implemented Zustand for scalable and efficient global state management, eliminating unnecessary re-renders. Built modular UI components with Tailwind CSS and optimized rendering pipelines. Integrated Recharts for performant data visualization. Designed a role-based state architecture enabling conditional UI rendering and action control.",
+
+    businessImpact: "Empowers users with actionable financial insights, improving budgeting decisions and financial awareness while reducing manual tracking effort through automation and visualization.",
+
+    github: "https://github.com/TechyAadi12",
+    live: "https://financial-ui-dashboard.netlify.app/",
+    image: "/images/finvault.webp",
+},
+           
+    {
+        id: 5,
         name: "To-Do Application",
         shortDescription: "A high-performance full-stack task management ecosystem facilitating seamless productivity through real-time data persistence and a minimalist, focused interface.",
         problem: "Users often experience 'task fragmentation' and cognitive overload when using cluttered productivity tools that lack instant synchronization across devices.",
@@ -135,5 +163,6 @@ export const projects: Project[] = [
         github: "https://github.com/TechyAadi12",
         live: "https://to-do-frontnd.netlify.app/",
         image: "/images/todo.webp",
-    },
+    }
+    
 ];
